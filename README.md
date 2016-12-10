@@ -7,7 +7,7 @@
 ```
 $ sudo gcc -o /usr/bin/firejail-forwarder firejail-forwarder.c
 $ sudo setcap CAP_SETUID+ep /usr/bin/firejail-forwarder
-# or sudo u+s /usr/bin/firejail-forwarder
+# or sudo chmod u+s /usr/bin/firejail-forwarder
 ```
 
 ## make firejail jail
